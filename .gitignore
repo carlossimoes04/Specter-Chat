@@ -1,0 +1,48 @@
+# Local LLM Models (GGUF) and cache
+*.gguf
+/backend/models/*
+!/backend/models/.gitkeep
+/backend/models/.cache/
+
+# User Data, Configurations, and Chat Databases
+/backend/data/chats/
+/backend/data/chroma/
+/backend/data/ui_mockups/
+/backend/data/*.json
+/backend/proxy_debug.log
+*.log
+
+# Python Virtual Environment and Cache
+/backend/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Node Modules and Frontend Build Output
+**/node_modules/
+/frontend/dist/
+/frontend/out/
+/frontend/build/
+
+# Local Environment Variables and Secrets
+.env
+.env.local
+.env.*.local
+*.local
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+Thumbs.db
+db.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+llama-cpp-python
+duckduckgo-search
+chromadb
+sentence-transformers
+huggingface_hub
+pydantic
+PyMuPDF
+python-multipart
+httpx

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased font-mono selection:bg-accent/30;
+  }
+}
+
+.glass-panel {
+  @apply bg-panel/60 backdrop-blur-md border border-white/10 rounded-xl shadow-2xl;
+}
