@@ -4,6 +4,10 @@
 
 # Specter Chat
 
+> [!WARNING]
+> **Project Status: Early Development (Beta)**
+> Specter Chat is currently in an active, early phase of development. You may encounter bugs, unoptimized resource/RAM usage, or incomplete features. We appreciate your patience, and contributions or bug reports are highly welcome!
+
 Specter Chat is an elite, high-performance local AI chatbot and agentic desktop assistant application built using **Electron**, **React (Vite)**, and **FastAPI**. 
 
 Designed for 100% private, offline-first artificial intelligence workflows, Specter Chat utilizes `llama.cpp` to run quantized GGUF models directly on local hardware. Additionally, it offers optional cloud backend proxy features for platforms like IAEdu, persistent semantic memory using ChromaDB, web search integration, and an extensible agent skills library.
@@ -13,6 +17,7 @@ Designed for 100% private, offline-first artificial intelligence workflows, Spec
 ## Key Features
 
 - **Offline-First Inference**: Run Large Language Models (e.g., Qwen-Coder, Phi-3, Gemma) locally via `llama.cpp` with CPU/GPU acceleration.
+- **Multi-Agent Swarm Mode**: Orchestrate a team of specialized AI agents. A Swarm Manager breaks down user requests into sequential sub-tasks and delegates them to dedicated agent roles (e.g., Coder, Researcher, Reviewer) using a mix of local and cloud models.
 - **Agentic Skills (Tools)**: Equip the assistant with the ability to execute actions:
   - Web search (via DuckDuckGo integration).
   - Directory listing, reading, and writing local files.
